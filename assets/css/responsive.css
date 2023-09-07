@@ -1,0 +1,635 @@
+/* 
+2560*1440
+2160*1440
+1920×1080
+1600×900
+1536×864
+1440×900
+1366×768    
+1280×720    
+1280×800    
+1280×1024   
+1024×768    
+768×1024
+ */
+/*////////////////////////////////////////////////////// Responsive CSS Structure //////////////////////////////////////////////////////*/
+@media (min-width: 1700px) and (max-width: 1920px) {}
+
+@media (min-width: 1500px) and (max-width: 1699px) {
+
+    /* aboutZuleyka start  */
+    .aboutZuleyka .textSection {
+        width: 800px;
+        max-width: 600px;
+        padding: 66.667px 0;
+        padding-left: 100px;
+    }
+
+    .aboutZuleyka .textSection h2 {
+        font-size: 45.833px;
+        letter-spacing: -0.917px;
+        margin-bottom: 33px;
+    }
+
+    .aboutZuleyka .textSection p {
+        font-size: 20px;
+        letter-spacing: 0.24px;
+    }
+
+    .aboutZuleyka .imgSection {
+        max-width: 515px;
+    }
+
+    /* aboutZuleyka end */
+}
+
+@media (min-width: 1500px) and (max-width: 1599px) {}
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+
+    /* aboutZuleyka start  */
+    .aboutZuleyka .textSection {
+        width: 720px;
+        max-width: 540px;
+        padding: 60px 0;
+        padding-left: 90px;
+    }
+
+    .aboutZuleyka .textSection h2 {
+        font-size: 41.25px;
+        letter-spacing: -0.825px;
+        margin-bottom: 30px;
+    }
+
+    .aboutZuleyka .textSection p {
+        font-size: 18px;
+        letter-spacing: 0.18px;
+    }
+
+    .aboutZuleyka .imgSection {
+        max-width: 480px;
+    }
+
+    /* aboutZuleyka end */
+}
+
+@media (min-width: 1300px) and (max-width: 1399px) {}
+
+@media (min-width: 1200px) and (max-width: 1299px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /* team page  */
+    /* aboutZuleyka start  */
+    .aboutZuleyka .textSection {
+        width: 512px;
+        max-width: 385px;
+        padding: 43px 0;
+        padding-left: 64px;
+    }
+
+    .aboutZuleyka .textSection h2 {
+        font-size: 34px;
+        letter-spacing: -0.587px;
+        margin-bottom: 31px;
+    }
+
+    .aboutZuleyka .textSection p {
+        font-size: 18px;
+        letter-spacing: 0.128px;
+        margin-top: 0;
+    }
+
+    .aboutZuleyka .imgSection {
+        max-width: 470px;
+    }
+
+    .aboutZuleyka .textSection p img {
+        width: 18px;
+        display: inline-block;
+    }
+
+    .aboutZuleyka .textSection h2 img {
+        width: 30px;
+    }
+
+    /* aboutZuleyka end */
+
+    /* Home Page Start */
+    /* .content-right-margin-140 { margin: 0 50px 0 0; } */
+    .content-left-margin-140 {
+        margin: 0 40px 0 70px;
+    }
+
+    .arrow-btn {
+        padding: 18px 40px 18px 40px;
+    }
+
+    .arrow-btn:after {
+        right: 20px;
+    }
+
+    .arrow-btn:before {
+        right: 20px;
+    }
+
+    .arrow-btn-box:hover .arrow-btn {
+        padding: 18px 70px 18px 30px;
+    }
+
+    .top-bottom-padding-120 {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .dark-bg-3 .medium-title {
+        font-size: 50px;
+    }
+
+    .client-list {
+        padding: 50px 0 50px 0 !important;
+    }
+
+    /* Home Page End */
+
+    /* Team Page Start */
+    .team-banner-section .large-title-bold {
+        font-size: 50px;
+    }
+
+    .team-banner-wrp .team-banner-section {
+        margin-left: 40px;
+    }
+
+    .team-page .page-head-bg.overlay-loading2::after {
+        content: "";
+        background-color: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    .team-member-wrp .title-style {
+        font-size: 50px;
+    }
+
+    .team-member-wrp .team-content .small-title-oswald {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .common-detail {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .team-banner-wrp .top-bottom-padding-120 {
+        padding-top: 100px;
+    }
+
+    /* Team Page End */
+
+    /* Portfolio Page Start */
+    .portfolio-banner-wrp .portfolio-banner-section {
+        margin-left: 40px;
+    }
+
+    .block-title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .what-we-do-wrp .four-columns {
+        flex-basis: 33.33%;
+        padding: 0 15px;
+    }
+
+    .what-we-do-wrp .flex-container {
+        margin: 0 -15px;
+    }
+
+    .what-we-do-block .small-title-oswald {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    /* Portfolio Page End */
+}
+
+@media (max-width: 991px) {
+
+    /* team page  */
+    /* aboutZuleyka start  */
+    .aboutZuleyka {
+        padding: 60px 40px;
+    }
+
+    .aboutZuleyka .imgSection {
+        max-width: 70%;
+        display: block;
+        margin: auto;
+    }
+
+    .aboutZuleyka .d-flex {
+        display: block;
+        text-align: center;
+
+    }
+
+    .aboutZuleyka .textSection {
+        width: 100%;
+        max-width: 100%;
+        padding: 43px 0;
+        padding-left: 0px;
+    }
+
+    .aboutZuleyka .textSection h2 {
+        font-size: 34px;
+        letter-spacing: -0.587px;
+        margin-bottom: 31px;
+    }
+
+    .aboutZuleyka .textSection p {
+        font-size: 16px;
+        letter-spacing: 0.128px;
+        text-align: justify;
+        margin-top: 0;
+    }
+
+    .aboutZuleyka .imgSection img {
+        border-radius: 5px;
+    }
+
+    .aboutZuleyka .textSection p img {
+        width: 18px;
+        display: inline-block;
+    }
+
+    .aboutZuleyka .textSection h2 img {
+        width: 30px;
+    }
+
+    /* aboutZuleyka end */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* Home Page Start */
+    .content-right-margin-140 {
+        margin: 0 40px 0 0;
+    }
+
+    .content-left-margin-140 {
+        margin: 20px 0px 20px 50px;
+    }
+
+    .arrow-btn {
+        padding: 18px 40px 18px 40px;
+    }
+
+    .arrow-btn:after {
+        right: 20px;
+    }
+
+    .arrow-btn:before {
+        right: 20px;
+    }
+
+    .arrow-btn-box:hover .arrow-btn {
+        padding: 18px 70px 18px 30px;
+    }
+
+    .dark-bg-3 .medium-title {
+        font-size: 48px;
+    }
+
+    .top-bottom-padding-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .client-list {
+        padding: 40px 0 40px 0 !important;
+    }
+
+    .client-list li {
+        height: 140px;
+    }
+
+    /* Home Page End */
+
+    /* Team Page Start */
+    .team-banner-section .large-title-bold {
+        font-size: 45px;
+    }
+
+    .team-banner-wrp .team-banner-section {
+        margin-left: 40px;
+    }
+
+    .team-page .page-head-bg.overlay-loading2::after {
+        content: "";
+        background-color: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    .team-member-wrp .title-style {
+        font-size: 45px;
+    }
+
+    .team-member-wrp .team-content .small-title-oswald {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .common-detail {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .team-banner-wrp .top-bottom-padding-120 {
+        padding-top: 100px;
+    }
+
+    .team-member-wrp .team-content .p-letter-style {
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: 5px;
+    }
+
+    .bottom-padding-60 {
+        padding-bottom: 50px;
+    }
+
+    /* Team Page End */
+
+    /* Portfolio Page Start */
+    .portfilio-page .page-head-bg.overlay-loading2::after {
+        content: "";
+        background-color: rgba(0, 0, 0, 0.3);
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    .portfolio-banner-wrp .portfolio-banner-section {
+        margin-left: 40px;
+    }
+
+    .block-title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .top-padding-120 {
+        padding-top: 60px;
+    }
+
+    .what-we-do-wrp .four-columns {
+        flex-basis: 50%;
+        padding: 0 15px;
+    }
+
+    .what-we-do-wrp .flex-container {
+        margin: 0 -15px;
+    }
+
+    .what-we-do-block .small-title-oswald {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .top-padding-90 {
+        padding-top: 60px;
+    }
+
+    .large-title,
+    .large-title-bold {
+        font-size: 45px;
+    }
+
+    .portfilio-page .services-bg {
+        height: 380px;
+    }
+
+    /* Portfolio Page End */
+
+}
+
+@media (min-width: 768px) {}
+
+@media (max-width: 767px) {
+    .aboutZuleyka {
+        padding: 40px 12px;
+    }
+
+    .aboutZuleyka .imgSection {
+        max-width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    /* Home Page Start */
+    .content-right-margin-140 {
+        margin: 20px 30px 20px 20px;
+    }
+
+    .header-flex-box {
+        align-items: center;
+    }
+
+    .top-bottom-padding-120 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .moon-img {
+        max-width: 130px;
+        bottom: -80px;
+    }
+
+    .top-padding-120 {
+        padding-top: 40px;
+    }
+
+    .bottom-padding-60 {
+        padding-bottom: 30px;
+    }
+
+    .arrow-btn {
+        padding: 15px 30px 15px 20px;
+    }
+
+    .arrow-btn:after {
+        right: 15px;
+    }
+
+    .arrow-btn:before {
+        right: 15px;
+    }
+
+    .arrow-btn-box:hover .arrow-btn {
+        padding: 15px 50px 15px 20px;
+    }
+
+    .content-left-margin-140 {
+        margin: 20px 30px 0 30px;
+    }
+
+    .top-padding-60 {
+        padding-top: 40px;
+    }
+
+    .dark-bg-3 .medium-title {
+        font-size: 35px;
+    }
+
+    .client-list {
+        padding: 40px 0 40px 0 !important;
+    }
+
+    .client-list li {
+        height: 120px;
+    }
+
+    .menu-close {
+        top: 20px;
+    }
+
+    .border-btn {
+        padding: 0 40px;
+    }
+
+    /* Home Page End */
+
+    /* Team Page Start */
+    .team-banner-section .large-title-bold {
+        font-size: 35px;
+    }
+
+    .team-banner-wrp .team-banner-section {
+        margin-left: 30px;
+        margin-right: 30px;
+        width: auto;
+    }
+
+    .team-page .medium-title {
+        font-size: 20px;
+        margin: 0 0 20px 0;
+    }
+
+    .team-page .page-head-bg.overlay-loading2::after {
+        content: "";
+        background-color: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    .team-member-wrp .title-style {
+        font-size: 35px;
+    }
+
+    .team-member-wrp .team-content .small-title-oswald {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .common-detail {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .team-banner-wrp .top-bottom-padding-120 {
+        padding-top: 100px;
+    }
+
+    .team-member-wrp .team-content .p-letter-style {
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: 5px;
+    }
+
+    .team-member-wrp .small-title-oswald {
+        font-size: 21px;
+        letter-spacing: 3px;
+    }
+
+    .bottom-padding-60 {
+        padding-bottom: 50px;
+    }
+
+    /* Team Page End */
+
+    /* Portfolio Page Start */
+    .portfilio-page .page-head-bg.overlay-loading2::after {
+        content: "";
+        background-color: rgba(0, 0, 0, 0.3);
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    .portfolio-banner-wrp .portfolio-banner-section {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .block-title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .what-we-do-wrp .four-columns {
+        flex-basis: 100%;
+        padding: 0 15px;
+    }
+
+    .what-we-do-wrp .flex-container {
+        margin: 0 -15px;
+    }
+
+    .what-we-do-block .small-title-oswald {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .top-padding-90 {
+        padding-top: 60px;
+    }
+
+    .large-title,
+    .large-title-bold {
+        font-size: 35px;
+    }
+
+    .portfilio-page .services-bg {
+        height: 350px;
+    }
+
+    /* Portfolio Page End */
+}
+
+/*---------- Small Mobile , IPhone Start ----------*/
+
+/*=== Screen Size = 240, 320, 360, 480, 568 ===*/
+@media (min-width: 576px) and (max-width: 767px) {}
+
+@media (min-width: 240px) and (max-width: 575px) {}
